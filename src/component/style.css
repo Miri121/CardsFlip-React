@@ -1,0 +1,36 @@
+.div1 {
+  background: radial-gradient(#f588d8, #c0a3e5);
+  height:100px;
+  padding: 20px;
+  width: 400px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.div2 {
+  background: radial-gradient(#76b2fe, #b69efe);
+  height:100px;
+  padding: 20px;
+  width: 400px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+h3{
+  background: radial-gradient(#1fe4f5, #3fbafe);
+  height:80px;
+  padding: 20px;
+  width: 350px;
+  color: #fff;
+  display: flex;
+  justify-content: center; 
+   align-items: center;
+}
