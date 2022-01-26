@@ -35,7 +35,7 @@ export default withRouter(connect(mapStateToProps, mapDispatchToProps)(function 
                         <div>
                     {/* <li> */}
                           {/* <Card text={item.joke} id={item.id}/> */}
-                         {arrNoShowCardss[item.id] ? alert("nooo"):<Card text={item.joke} id={item.id}/>}
+                         {arrNoShowCardss[item.id] ? null:<Card text={item.joke} id={item.id}/>}
                          </div>
                     //   </li> 
                     ))}

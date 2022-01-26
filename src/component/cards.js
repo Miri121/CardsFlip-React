@@ -25,8 +25,8 @@ export default withRouter(connect(mapStateToProps, mapDispatchToProps)(function 
     let [hidden, setHidden] = useState(false);
 
     function handleClick() {
-        setDisabled(true)
-        setIsFlipped(!isFlipped)
+        setDisabled(()=>disabled=true)
+        setIsFlipped(()=>!isFlipped)
         if (isFlipped == false) {
             setArrCardClicks(text)
         }
@@ -34,7 +34,7 @@ export default withRouter(connect(mapStateToProps, mapDispatchToProps)(function 
     
     function closeComponent() {
         if (disabled == false) {
-            setHidden(true)
+            setHidden(()=>hidden=true)
             setArrNoShowCards(id)
         }
     }
